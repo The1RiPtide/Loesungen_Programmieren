@@ -5,13 +5,13 @@ public class Nummeriert
     static int numberOfObjects;
     int myID;
 
-    Nummeriert()
+    public Nummeriert()
     {
-        numberOfObjects++;
-        this.myID = numberOfObjects;
+        this.myID = Nummeriert.numberOfObjects;
+        Nummeriert.numberOfObjects++;
     }
 
-    int meineID()
+    public int meineID()
     {
         return myID;
     }
