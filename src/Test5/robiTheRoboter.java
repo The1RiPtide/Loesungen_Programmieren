@@ -1,3 +1,5 @@
+package Test5;
+
 public class robiTheRoboter
 {
     static boolean detectIfAngry(String input)

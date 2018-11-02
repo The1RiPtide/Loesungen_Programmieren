@@ -1,3 +1,5 @@
+package Test5;
+
 public class moronicMethod
 {
     static int totallyMoronicMethod(String input)

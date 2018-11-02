@@ -1,3 +1,5 @@
+package Test5;
+
 public class urlTest
 {
     static boolean isThisWebsiteRelevant(String URL)

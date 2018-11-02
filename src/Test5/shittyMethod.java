@@ -1,3 +1,5 @@
+package Test5;
+
 public class shittyMethod
 {
     String shittyMethod(int firstInt, int secondInt, int thirdInt)
