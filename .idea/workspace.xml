@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1468abd-3107-4a53-acd1-11205fd1b917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test9/Buzzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test9/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test9/Iteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test9/Rekursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/loesungenprogrammieren/Test9/Buzzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/loesungenprogrammieren/Test9/Iteration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/loesungenprogrammieren/Test9/Rekursion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test10/FussballResultate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test10/ThreadsLösungen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test10/packages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test9/Buzzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test9/Buzzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test9/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test9/Iteration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,16 +26,18 @@
     <session id="-156142978">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,8 +51,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="37" />
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -59,9 +66,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3590" />
+          <entry key="JAVA" value="4426" />
           <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -73,54 +80,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test8/Knoten.java">
+        <entry file="file://$PROJECT_DIR$/src/Test10/ThreadsLösungen">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test9/Exception.java">
+        <entry file="file://$PROJECT_DIR$/src/Test10/packages.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test9/Buzzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-              <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test9/Rekursion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test9/Iteration.java">
+        <entry file="file://$PROJECT_DIR$/src/Test10/FussballResultate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="459">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,9 +153,12 @@
         <option value="$PROJECT_DIR$/src/Test8/StringNumber.java" />
         <option value="$PROJECT_DIR$/src/Test8/Knoten.java" />
         <option value="$PROJECT_DIR$/src/Test9/Exception.java" />
-        <option value="$PROJECT_DIR$/src/Test9/Buzzer.java" />
         <option value="$PROJECT_DIR$/src/Test9/Rekursion.java" />
         <option value="$PROJECT_DIR$/src/Test9/Iteration.java" />
+        <option value="$PROJECT_DIR$/src/Test9/Buzzer.java" />
+        <option value="$PROJECT_DIR$/src/Test10/ThreadsLösungen" />
+        <option value="$PROJECT_DIR$/src/Test10/packages.java" />
+        <option value="$PROJECT_DIR$/src/Test10/FussballResultate.java" />
       </list>
     </option>
   </component>
@@ -180,7 +168,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="480" />
     <option name="y" value="-12" />
     <option name="width" value="981" />
@@ -195,7 +183,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,18 +199,19 @@
               <item name="loesungenprogrammieren" type="b2602c69:ProjectViewProjectNode" />
               <item name="loesungenprogrammieren" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test9" type="462c0819:PsiDirectoryNode" />
+              <item name="Test10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543497334776" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544180117543" />
     <property name="last_opened_file_path" value="$USER_HOME$/workspace/Project1/src/Node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exceptions">
+  <component name="RunManager" selected="Application.Iteration">
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test9.Exceptions" />
       <module name="loesungenprogrammieren" />
@@ -266,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test6.Sandbox" />
+    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test9.Iteration" />
       <module name="loesungenprogrammieren" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test6.*" />
+          <option name="PATTERN" value="Test9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,18 +302,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.workspace" />
-      <item itemvalue="Application.Sandbox" />
       <item itemvalue="Application.pascaltriangle" />
       <item itemvalue="Application.rekursionII" />
       <item itemvalue="Application.Exceptions" />
+      <item itemvalue="Application.Iteration" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iteration" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.rekursionII" />
         <item itemvalue="Application.pascaltriangle" />
         <item itemvalue="Application.workspace" />
-        <item itemvalue="Application.Sandbox" />
       </list>
     </recent_temporary>
   </component>
@@ -354,18 +342,21 @@
       <workItem from="1542874530019" duration="618000" />
       <workItem from="1542968930084" duration="591000" />
       <workItem from="1543483977642" duration="3943000" />
-      <workItem from="1543488989655" duration="3326000" />
+      <workItem from="1543488989655" duration="6573000" />
+      <workItem from="1544085888927" duration="3000" />
+      <workItem from="1544107512427" duration="599000" />
+      <workItem from="1544175209318" duration="4320000" />
+      <workItem from="1544184572103" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24088000" />
+    <option name="totallyTimeSpent" value="32837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31093118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -566,39 +557,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test9/Iteration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test9/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test9/Buzzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test9/Rekursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test9/Exception.java">
+    <entry file="file://$PROJECT_DIR$/src/Test10/ThreadsLösungen">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test10/packages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test9/Iteration.java">
+    <entry file="file://$PROJECT_DIR$/src/Test10/FussballResultate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="459">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

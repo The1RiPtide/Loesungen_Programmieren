@@ -2,13 +2,13 @@ package Test9;
 
 public class Buzzer // enthält einen fehler, weiss aber nicht wo...
 {
-    static private int gedrückteBuzzer = 0;
+    static int gedrückteBuzzer = 0;
 
     boolean buzzerGedrückt = false;
 
     public void buzz()
     {
-        if (!buzzerGedrückt)
+        if (!this.buzzerGedrückt)
         {
             Buzzer.gedrückteBuzzer++;
         }

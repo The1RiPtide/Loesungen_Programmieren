@@ -1,0 +1,8 @@
+
+Richtig - Bei der Verwendung von Synchronisation können sich Threads potenziell gegenseitig blockieren.
+Richtig - Die Methodendefinitionen "synchronized void foo(){...}" und "void foo(){ synchronized(this){...} }" sind semantisch äquivalent.
+Falsch - Die notify Methode blockiert, falls es keinen auf dieses Objekt wartenden Thread gibt.
+Falsch - Es können maximal 256 Threads gleichzeitig laufen.
+Keine Ahnung glaub falsch - Es gibt überladene Varianten der wait-Methode, bei denen eine maximale Wartezeit angegeben werden kann.
+Richtig - Die wait und notify Methoden funktionieren nur innerhalb eines synchronized Blocks.
+Richtig - Jedes laufende Java-Programm besteht aus mindestens einem Thread.

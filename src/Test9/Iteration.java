@@ -2,7 +2,7 @@ package Test9;
 
 public class Iteration
 {
-    public int iterativ(int startwert, int k)
+    public static int iterativ(int startwert, int k)
     {
         if (startwert == 1)
         {
@@ -25,5 +25,11 @@ public class Iteration
         }
 
         return startwert;
+    }
+    public static void main(String[] args)
+    {
+        System.out.println(iterativ(5,1));
+        System.out.println(iterativ(1,3));
+        System.out.println(iterativ(2,25));
     }
 }
