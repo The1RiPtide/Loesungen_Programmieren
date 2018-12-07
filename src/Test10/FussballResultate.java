@@ -5,10 +5,14 @@ public class FussballResultate extends Thread
     private String[] gespeicherteResultate = new String[20];
     InputStreamReader original;
     BufferedReader reader;
-    Boolean isFinished;
+    boolean isFinished = false;
 
     FussballResultate(InputStream resultate)
     {
+        for(int i = 0; i < this.gespeicherteResultate.length; i++)
+        {
+            gespeicherteResultate[i] = "";
+        }
         this.original = new InputStreamReader(resultate);
         this.reader = new BufferedReader(this.original);
     }
@@ -24,7 +28,7 @@ public class FussballResultate extends Thread
         try
         {
             String ausgelesen;
-            for (int i = 0; (ausgelesen = this.reader.readLine()) != null; i++)
+            for (int i = 0;  i < this.gespeicherteResultate.length && (ausgelesen = this.reader.readLine()) != null ; i++)
             {
                 this.gespeicherteResultate[i] = ausgelesen;
             }
@@ -38,4 +42,6 @@ public class FussballResultate extends Thread
     {
         return isFinished;
     }
+
+
 }
