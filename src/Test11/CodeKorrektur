@@ -1,0 +1,6 @@
+Richtig: return i;
+         return -1;
+
+Richtig: Account accounts[] = new Account[2];
+         for (i=0; i<accounts.length; i++) {
+
