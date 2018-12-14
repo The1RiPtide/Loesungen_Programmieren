@@ -2,18 +2,10 @@ public class workspace
 {
     public static void main(String[] args) throws InterruptedException
     {
-        String s = "Hallo";
-
-
+        System.out.println(innerclass.test);
     }
 
-    public static int findChar(String s, char c)
-    {
-        for (int i = 0; i < s.length(); ++i)
-            if(s.charAt(i)==c)
-                return i;
-
-        return -1;
-    }
-
+   public static class innerclass{
+        static int test = 4;
+   }
 }
