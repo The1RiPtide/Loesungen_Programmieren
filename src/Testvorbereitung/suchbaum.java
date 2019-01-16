@@ -20,7 +20,7 @@ public class suchbaum
 
         if(this.wurzel instanceof blatt)
         {
-            
+            balblaba
         }
     }
 
